@@ -112,7 +112,7 @@ jobs:
         if [ -e "Image.gz" ]; then
           cp -f Image.gz AnyKernel3
         fi
-        if [ -e "dtb.img" ]; then
+        if [ -e "dtb" ]; then
           cp -f dtb AnyKernel3/alioth-normal-dtb
         fi
         # Check if dtbo.img exists, then copy it to AnyKernel3 folder
