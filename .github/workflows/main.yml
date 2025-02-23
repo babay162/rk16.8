@@ -1,4 +1,4 @@
-name: Kernel Build TEST (alioth) - clang-r547379 noksu
+name: NAPI-overissue-KSU
 
 on:
   pull_request:
@@ -9,7 +9,7 @@ on:
         required: false
       KERNEL_TREE:
         description: 'Kernel Tree'
-        default: 'https://github.com/re-noroi/rk16.8.git'
+        default: 'https://github.com/babay162/rk16.8.git'
         required: true
       KERNEL_TREE_BRANCH:
         description: 'Kernel Tree Branch'
